@@ -30,6 +30,6 @@ import scalar "github.com/goctus/scalar/pkg"
 type Option[T any] interface {
 	scalar.Scalar[T]
 
-	// Empty returns true if there is a value in the Option.
+	// Empty returns true if there is no value in the Option.
 	Empty() bool
 }
